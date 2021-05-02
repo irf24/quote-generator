@@ -1,5 +1,3 @@
 # quote-generator
-Generators random quotes
-fetched from quotes API
-
+Generate random quotes using fetch API
 Button to share quotes on twitter also
