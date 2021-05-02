@@ -9,12 +9,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
     <title>Quote Generator</title>
   </head>
   <body>
-    <div class="quote-container">
-      <div class="quote-text">
+    <div class="loader" id="loader"></div>
+    <div class="quote-container" id="quote-container">
+      <div class="quote-text" id="quote-text">
         <i class="fas fa-quote-left"></i>
         <span class="quote" id="quote"></span>
         <i class="fas fa-quote-right"></i>
@@ -33,5 +33,6 @@
         </button>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
